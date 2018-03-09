@@ -136,7 +136,8 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 ## Solution Explanation
 
-This solution works in 4 steps:
+This solution works in 8 steps:
+
 0. Take in a string as an argument.
 1. Check if string length is odd or even.
 2. Declare Result variable as array.

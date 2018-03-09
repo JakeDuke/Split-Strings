@@ -1,10 +1,13 @@
- function solution(string) {
-    let reversed_string = "";
-    let temp_array = [];
-    
-    temp_array = string.split("");
-    temp_array = temp_array.reverse();
-    reversed_string = temp_array.join("");
-    
-    return reversed_string;
-}; 
+function solution(str){
+var result = [];
+
+if(str.length % 2 !== 0){
+str += "_"; 
+}
+
+for (i = 0; i < str.length; i += 2){
+result.push(str.slice(i, i + 2));
+}
+
+return result;
+}

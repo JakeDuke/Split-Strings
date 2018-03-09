@@ -137,11 +137,13 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 This solution works in 4 steps:
 0. Take in a string as an argument.
-1. Check if string length is odd or even
-2. If length of the string is odd, add "_" symbol to sting with str += "_"; 
-2. Reverse the elements in the array with Array.reverse().
-3. Concatenate the letters in the array using Array.join("").
-4. Return the freshly reversed string.
+1. Check if string length is odd or even.
+2. Declare Result variable as array.
+3. If length of the string is odd, add underscore symbol to sting with str += "underscore"; 
+4. Iterate string with (i = 0; i < str.length; i += 2).
+5. Split string into pairs with .slice().
+6. Push pairs to the new array with .push().
+7. Return Result
 
 This problem is pretty simple so I didn't have to use any particular problem solving techniques.  A step-by-step solution was good enough since I was able to find native JS methods to do the work for me.
 

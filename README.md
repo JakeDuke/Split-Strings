@@ -14,21 +14,22 @@ Complete the solution so that it splits the string into pairs of two characters.
 ## Solution Process
 0. Codewars challenge
     ```
-    Complete the solution so that it reverses the string value passed into it.
+    Complete the solution so that it splits the string into pairs of two characters.
     ```
 1. Phrased as a function  
     ```
-    Write a function that reverses the string value passed into it.
+    Write a function that splits the string into pairs of two characters.
     ```
 2. Define arguments and return value   
     ```
-    Write a function that takes in a string and returns the string in reverse. 
+    Write a function that takes in a string and returns the array of two characters elements.
     ```
 3. Convert that sentence into high-high level pseudocode.
     ```
     solution(string)
-        reverse the string
-        return reversed string
+        string to array
+        split the array
+        return array of two characters elements
     End solution
     ```
 4. Declare return value, isolate the challenging bit.
@@ -136,7 +137,8 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 This solution works in 4 steps:
 0. Take in a string as an argument.
-1. Individually map the letters of the argument into an array using String.split("").
+1. Check if string length is odd or even
+2. If length of the string is odd, add "_" symbol to sting with str += "_"; 
 2. Reverse the elements in the array with Array.reverse().
 3. Concatenate the letters in the array using Array.join("").
 4. Return the freshly reversed string.

@@ -145,8 +145,6 @@ This solution works in 4 steps:
 6. Push pairs to the new array with .push().
 7. Return Result
 
-This problem is pretty simple so I didn't have to use any particular problem solving techniques.  A step-by-step solution was good enough since I was able to find native JS methods to do the work for me.
-
 
 [TOP](#index)
 
@@ -155,21 +153,19 @@ This problem is pretty simple so I didn't have to use any particular problem sol
 ## Language Features
 
 This solution relied on a few native methods:
-* Array.join
-* Array.revers
-* String.split
+* String.length
+* String.slice()
+* Array.push()
 
-I did not use any control flow in this problem.
+
 
 [TOP](#index)
 
 ---
 ## Uses
 
-Here are a few applications that could use this function:
-* A scrabble AI
-* A coding/decoding application
-* Online boggle board
+
+* No Idea
 
 
 [TOP](#index)
@@ -182,21 +178,19 @@ Things I learned studying this problem:
 * Reading MDN documentation
 * What "native language features" means
 * How to write specs
-* For loops can go down to 0
+
 
 New vocabulary:
 * Method: A function property in an object
 * Test case: A sample input/output pair for a function 
 
 Things I still struggle with:
-* Choosing good test cases
-* Errors from misspelling
 * Finding helpful stack-overflow questions
 * Understanding other people's solutions
 
 Next study goals:
 * Practice reading documentation
-* Finding 2 more test cases for each problem
+* Finding more test cases for each problem
 * Writing more readable solutions
 
 
@@ -204,5 +198,5 @@ Next study goals:
 
 ___
 ___
-### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
+
 

@@ -1,15 +1,6 @@
-# [Reversed Strings](https://www.codewars.com/kata/reversed-strings)
+# [Split Strings](https://www.codewars.com/kata/split-strings)
 
-Complete the solution so that it reverses the string value passed into it.
-
-Reverser: function
-* Args: 1
-  * str: String
-    * A string to be reversed.
-* Return: String
-  * A backwards version of the string passed in.
-* Behavior: Takes in a string, reverses the letters, and returns it.
-
+Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
 ### Index
 * [Solution Process](#solution-process)

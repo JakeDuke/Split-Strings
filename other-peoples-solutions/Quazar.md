@@ -9,19 +9,20 @@ function solution(str){
 
 ## Solution Explanation
 
-This solution starts by creating an empty string.  Then in a for loop, she concatenates the letters in reverse order from the argument to the new string.  Finally she returns the newly constructed string.
+This solution starts by checking if the string length is even. Then he devided the string into array of pairs using regular expression "/\w\w/g" and .match() method.
 
 
 ---
 
 ## Language Features
 
-Dimitrk used a couple String features:
+Quazar used:
+* Ternary operator
 * Concatenation
-* String.length
-* String indexing
+* String.match
+* Regular expression
 
-And a for loop checked by the length of the string.
+
 
 
 ___

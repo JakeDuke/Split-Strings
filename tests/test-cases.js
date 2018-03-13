@@ -1,19 +1,19 @@
 tests({
 
-  'eert': function() {
-    eq("tree", solution("eert"));
+  'lol': function() {
+    eq("lol", solution([ 'lo', 'l_' ]));
   },
   'car': function() {
-    eq("rac", solution("car"));
+    eq("car", solution([ 'ca', 'r_' ]));
   },
-  'pencil': function() {
-    eq("licnep", solution("pencil"));
+  'beer': function() {
+    eq("beer", solution([ 'be', 'er' ]));
   },
-  '8873024': function() {
-    eq("4203788", solution("8873024"));
+  'football': function() {
+    eq("football", solution([ 'fo', 'ot', 'ba', 'll' ]));
   },
   '##&][&##': function() {
-    eq("##&][&##", solution("##&][&##"));
+    eq("##&][&##", solution([ '##', '&]', '[&', '##' ]));
   }
 
 });

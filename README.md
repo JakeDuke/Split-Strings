@@ -35,87 +35,64 @@ Complete the solution so that it splits the string into pairs of two characters.
 4. Declare return value, isolate the challenging bit.
     ```
     solution(string)
-        reversed_string <- ""
-        reverse the string
-        return reversed_string
+        result < - ""
+        string to array
+        split the array
+        return result
     End solution   
     ```
 5. Begin exploring the challenging bit.
     ```
     solution(string)
-        reversed_string <- ""
+        result < - ""
         available options:
-            - for or while loops
-            - if statements
+            + for or while loops
+            + if statements
             + string methods
-        return reversed_string
+            + array methods
+        return result
     End solution   
     ```
 6. Continue exploring the challenging bit.
     ```
     solution(string)
-        reversed_string <- ""
-        available options: String methods
-            - String.length
-            - String.indexOf
-            - String.search
-            + String.split
-            - String.substring
+        result < - ""
+        available options: 
+            + String.length
+            + String.map
+            + String.match
             + String.slice
-            + String.replace
-        return reversed_string
+            + array.push
+        return result
     End solution   
     ```
+
 7. Continue exploring the challenging bit.
     ```
     solution(string)
-        reversed_string <- ""
-        two possible strategies:
-            + convert to array and back to string
-                String.split
-                + arrays have a reverse method
-            - slice the end replace at the beginning    
-                String.slice, String.replace
-                - this could get tricky with for loops
-        return reversed_string
+        declare new array
+        result <- ""
+            if statements 
+            for loop
+                - string.match
+                + string.slice
+                + Array.push
+        return result
     End solution   
     ```
-8. Continue exploring the challenging bit.
+8. Decided on a strategy.
     ```
     solution(string)
-        reversed_string <- ""
-        convert to array and back to string
-            String.split
-            Array.reverse
-            convert array back to string
-                - read out and concatinate each element in a loop
-                + Array.join
-        return reversed_string
+        result <- ""
+            if statements 
+            for loop
+            string.slice
+            Array.push
+        return result
     End solution   
     ```
-9. Decided on a strategy.
-    ```
-    solution(string)
-        reversed_string <- ""
-        convert to array and back to string
-            String.split
-            Array.reverse
-            Array.join
-        return reversed_string
-    End solution   
-    ```
-10. Refactoring pseudocode closer to real code
-    ```
-    solution(string)
-        reversed_string <- ""
-        temp_array = [];
-        temp_array <- string.split("")
-        temp_array <- temp_array.reverse()
-        reversed_string <- temp_array.join("")
-        return reversed_string
-    End solution   
-    ```
-11. Convert pseudocode to real code.
+
+9. Convert pseudocode to real code.
     ```
          function solution(str){
          var result = [];
@@ -155,6 +132,7 @@ This solution works in 8 steps:
 ## Language Features
 
 This solution relied on a few native methods:
+* if statement
 * String.length
 * String.slice()
 * Array.push()
